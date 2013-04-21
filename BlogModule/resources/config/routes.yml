@@ -1,0 +1,19 @@
+Blog_Index:
+    pattern: /blog
+    defaults: { _controller: "Blog:Index:index" }
+
+Blog_Index2:
+    pattern: /blog/
+    defaults: { _controller: "Blog:Index:index" }
+
+Blog_View_Post:
+    pattern: /blog/post/{slug}
+    defaults: { _controller: "BlogModule:Index:view" }
+
+Blog_View_Cat:
+    pattern: /blog/cat/{cat}
+    defaults: { _controller: "BlogModule:Index:cat" }
+
+Blog_Archive:
+    pattern: /blog/archive
+    defaults: { _controller: "BlogModule:Index:archive" }

@@ -1,0 +1,48 @@
+Blog_Admin_Index:
+    pattern: /admin/blog
+    defaults: { _controller: "BlogAdminModule:Index:index" }
+
+Blog_Admin_Index:
+    pattern: /admin/blog/
+    defaults: { _controller: "BlogAdminModule:Index:index" }
+
+
+Blog_Admin_Draft_Index:
+    pattern: /admin/blog/drafts
+    defaults: { _controller: "BlogAdminModule:Index:drafts" }
+
+
+Blog_Post_Add:
+    pattern: /admin/blog/post/create
+    defaults: { _controller: "BlogAdminModule:Post:create" }
+
+Blog_Post_Admin_Submit:
+    pattern: /admin/blog/post/createsave
+    defaults: { _controller: "BlogAdminModule:Post:createsave" }
+    requirements:
+      method: POST
+
+
+Blog_Post_Edit:
+    pattern: /admin/blog/post/edit/{id}
+    defaults: { _controller: "BlogAdminModule:Post:edit" }
+
+Blog_Post_Publish:
+    pattern: /admin/blog/post/publish
+    defaults: { _controller: "BlogAdminModule:Post:publish" }
+    requirements:
+      method: POST
+
+Blog_Post_Update:
+    pattern: /admin/blog/post/update
+    defaults: { _controller: "BlogAdminModule:Post:update" }
+    requirements:
+      method: POST
+
+Blog_Post_Delete:
+    pattern: /admin/blog/post/delete/{id}
+    defaults: { _controller: "BlogAdminModule:Post:delete" }
+
+Blog_Upload_Media:
+    pattern: /admin/blog/uploadmedia/{postId}
+    defaults: { _controller: "BlogAdminModule:Post:uploadmedia" }

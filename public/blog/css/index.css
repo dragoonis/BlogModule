@@ -1,0 +1,5 @@
+
+.content {padding: 15px 0; font-size: 0.85em;}
+.content .box .title {color: #000000; font-size: 110%; font-weight: bold;}
+.content .box .title a {color: #000000;}
+.content .box .picture img {max-width: 100%;overflow: hidden;}

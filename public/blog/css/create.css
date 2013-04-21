@@ -1,0 +1,8 @@
+.blog-post-form {width: 70%;float: left;}
+.blog-post-form form {padding: 10px;}
+.blog-post-form input, .blog-post-form textarea {width: 95%;}
+.sidebar {width: 29%;float: left; border-left: 1px solid#ccc; height: 600px;}
+.sidebar .content {padding: 10px;}
+.sidebar .section {border: 1px solid #ccc;}
+.sidebar .publish {text-align: center;}
+.alert {display: none;}
