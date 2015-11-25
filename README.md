@@ -1,6 +1,8 @@
 ppi-blog-engine
 ===============
 
+[![Join the chat at https://gitter.im/dragoonis/BlogModule](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dragoonis/BlogModule?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Simple plug and play module to add Blog functionality to a PPI2 app.
 
 Modules
